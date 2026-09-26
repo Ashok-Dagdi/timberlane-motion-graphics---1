@@ -143,7 +143,10 @@ const plateFor = (url) => {
   }
   const m = u.pathname.match(/\/photos\/(\d+)\//) || u.pathname.match(/\/video-files\/(\d+)\//);
   if (!m) return null;
-  for (const ext of [".jpg", ".jpeg", ".png", ".webp", ".mp4"]) {
+  // video URLs must only ever match a video override — a same-id .jpg would
+  // otherwise be served as "video/mp4"-shaped JPEG bytes and error the element
+  const exts = /\/video-files\//.test(u.pathname) ? [".mp4"] : [".jpg", ".jpeg", ".png", ".webp"];
+  for (const ext of exts) {
     const f = path.join(PLATES, m[1] + ext);
     if (fs.existsSync(f)) return f;
   }

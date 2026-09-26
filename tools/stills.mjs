@@ -31,7 +31,8 @@ for (const spec of specs) {
     if (/pexels\.com/.test(url)) {
       const m = url.match(/(?:photos|video-files)\/(\d+)\//);
       const base = path.join(import.meta.dirname, "plates", m ? m[1] : "");
-      const local = [".jpg", ".jpeg", ".png", ".mp4"].map((e) => base + e).find((f) => fs.existsSync(f));
+      const exts = /video-files\//.test(url) ? [".mp4"] : [".jpg", ".jpeg", ".png"];
+      const local = exts.map((e) => base + e).find((f) => fs.existsSync(f));
       if (local) {
         r.respond({ status: 200, contentType: local.endsWith(".mp4") ? "video/mp4" : "image/jpeg", body: fs.readFileSync(local) }).catch(() => {});
         return;
