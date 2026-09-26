@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TIMBERLANE — offline render harness</title>
+    <!--
+      Headless render target. `?piece=01&t=0.5` mounts exactly one composition at
+      one point in time, with no app chrome. tools/render.mjs drives this page
+      frame by frame to produce the MP4 masters. Not linked from the app.
+    -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/render.tsx"></script>
+  </body>
+</html>
