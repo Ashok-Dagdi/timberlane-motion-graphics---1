@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.local
+
+# offline render workspace (frame caches, audio stems, exported masters)
+render-out/
+
+# local plate stand-ins for offline renders (see tools/README.md)
+tools/plates/
