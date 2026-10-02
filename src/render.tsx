@@ -29,6 +29,8 @@ import { DraftComposition } from "./video4/scenes";
 import { DossierComposition } from "./video5/scenes";
 import { StoryComposition } from "./video6/scenes";
 import { AdComposition } from "./video7/scenes";
+import { LayersComposition } from "./layers/LayerCanvas";
+import { score8 } from "./layers/score8";
 
 import { IMG, VID } from "./video/assets";
 import { score } from "./video/audio";
@@ -39,7 +41,7 @@ import { score5 } from "./video5/audio";
 import { score6 } from "./video6/audio";
 import { score7 } from "./video7/audio";
 
-export type PieceId = "01" | "02" | "03" | "04" | "05" | "06" | "07";
+export type PieceId = "01" | "02" | "03" | "04" | "05" | "06" | "07" | "08";
 
 type Piece = {
   id: PieceId;
@@ -52,7 +54,7 @@ type Piece = {
   score: unknown;
 };
 
-/** the seven masters, in reel order */
+/** the eight masters, in reel order */
 export const PIECES: Piece[] = [
   { id: "01", slug: "vertical-ember", w: 1080, h: 1920, fps: 30, duration: 20, Comp: ({ t }) => <Composition t={t} playing={false} grain guides={false} burnIn={false} />, score: score },
   { id: "02", slug: "cinematic-scope", w: 1920, h: 810, fps: 24, duration: 30, Comp: ({ t }) => <CinematicComposition t={t} />, score: score2 },
@@ -61,6 +63,7 @@ export const PIECES: Piece[] = [
   { id: "05", slug: "dossier-case", w: 1080, h: 1920, fps: 30, duration: 20, Comp: ({ t }) => <DossierComposition t={t} />, score: score5 },
   { id: "06", slug: "ramesh-story", w: 1080, h: 1920, fps: 30, duration: 24, Comp: ({ t }) => <StoryComposition t={t} />, score: score6 },
   { id: "07", slug: "material-ad", w: 1080, h: 1920, fps: 30, duration: 20, Comp: ({ t }) => <AdComposition t={t} />, score: score7 },
+  { id: "08", slug: "timberlane-layers", w: 1080, h: 1920, fps: 30, duration: 30, Comp: ({ t }) => <LayersComposition t={t} />, score: score8 },
 ];
 
 export const pieceById = (id: string) => PIECES.find((p) => p.id === id) ?? PIECES[0];

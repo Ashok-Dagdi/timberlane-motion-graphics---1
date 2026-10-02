@@ -1,0 +1,240 @@
+{
+  "name": "starter-8s",
+  "title": "STUDIO ONE — first scene",
+  "fps": 30,
+  "meta": {
+    "width": 1080,
+    "height": 1080,
+    "duration": 8,
+    "base": "#0b0c0e"
+  },
+  "theme": {
+    "fonts": {
+      "display": "Anton",
+      "grotesk": "Archivo",
+      "mono": "JetBrains Mono",
+      "serif": "Playfair Display"
+    },
+    "accent": "#C45A0F",
+    "ink": "#f4f1ea"
+  },
+  "music": {
+    "bpm": 120,
+    "key": "A minor",
+    "title": "no score needed — the picture stands alone"
+  },
+  "beats": [
+    0,
+    1.5,
+    4,
+    6
+  ],
+  "camera": {
+    "keys": [
+      {
+        "t": 0,
+        "x": 0,
+        "y": 0,
+        "zoom": 1.02,
+        "ease": "swift"
+      },
+      {
+        "t": 4,
+        "x": -14,
+        "y": 10,
+        "zoom": 1.09,
+        "ease": "expoOut"
+      },
+      {
+        "t": 6.5,
+        "x": 6,
+        "y": -6,
+        "zoom": 1.03,
+        "ease": "swift"
+      }
+    ],
+    "drift": 4,
+    "beat": {
+      "amount": 0.006,
+      "every": 1
+    }
+  },
+  "assets": {
+    "room": "https://images.pexels.com/photos/31949939/pexels-photo-31949939.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  },
+  "layers": [
+    {
+      "id": "bg",
+      "type": "bg",
+      "in": 0,
+      "dur": 8,
+      "props": {
+        "colors": [
+          "#191c20",
+          "#0b0c0e"
+        ],
+        "mode": "linear",
+        "angle": 90,
+        "drift": 0.12
+      }
+    },
+    {
+      "id": "plate",
+      "type": "photo",
+      "in": 0,
+      "dur": 8,
+      "t": {
+        "x": 540,
+        "y": 372,
+        "w": 900,
+        "h": 620
+      },
+      "anim": {
+        "enter": "wipeU",
+        "exit": "fade",
+        "dur": 1.1,
+        "ease": "expoOut"
+      },
+      "props": {
+        "src": "room",
+        "radius": 10,
+        "dim": 0.18,
+        "scrim": true,
+        "scrimAlpha": 0.5,
+        "tint": "#C45A0F",
+        "tintAlpha": 0.18,
+        "tintBlend": "soft-light",
+        "kb": {
+          "zoom": 1.06,
+          "x": 10,
+          "y": -6
+        }
+      }
+    },
+    {
+      "id": "kick",
+      "type": "text",
+      "in": 0.6,
+      "dur": 6.6,
+      "t": {
+        "x": 540,
+        "y": 752,
+        "w": 860
+      },
+      "anim": {
+        "enter": "up",
+        "exit": "fade",
+        "dur": 0.7,
+        "ease": "expoOut",
+        "stagger": 0.05
+      },
+      "props": {
+        "text": "MAKE ROOM\nFOR **LIGHT.**",
+        "font": "display",
+        "size": 132,
+        "leading": 0.92,
+        "tracking": -4,
+        "align": "center",
+        "color": "#f4f1ea",
+        "accent": "#C45A0F",
+        "reveal": "wordsUp"
+      }
+    },
+    {
+      "id": "rule",
+      "type": "shape",
+      "in": 1.4,
+      "dur": 5.6,
+      "t": {
+        "x": 540,
+        "y": 862,
+        "w": 620,
+        "h": 3
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.4,
+        "ease": "swift"
+      },
+      "props": {
+        "shape": "line",
+        "fill": "#C45A0F",
+        "stroke": "#C45A0F",
+        "strokeW": 3,
+        "grow": true,
+        "growDur": 0.55,
+        "cap": "round"
+      }
+    },
+    {
+      "id": "counter",
+      "type": "counter",
+      "in": 3.2,
+      "dur": 3.6,
+      "t": {
+        "x": 300,
+        "y": 946
+      },
+      "props": {
+        "from": 0,
+        "to": 1240,
+        "decimals": 0,
+        "thousand": false,
+        "suffix": "",
+        "label": "PROJECTS DELIVERED",
+        "size": 44,
+        "font": "grotesk",
+        "color": "#f4f1ea",
+        "align": "center",
+        "bar": true,
+        "barColor": "#C45A0F",
+        "ease": "expoOut",
+        "tail": 0.5
+      }
+    },
+    {
+      "id": "studio",
+      "type": "text",
+      "in": 3.2,
+      "dur": 3.6,
+      "t": {
+        "x": 790,
+        "y": 946
+      },
+      "props": {
+        "text": "STUDIO ONE · BENGALURU",
+        "font": "mono",
+        "size": 22,
+        "tracking": 5,
+        "align": "center",
+        "color": "#8b929a",
+        "upper": true
+      }
+    },
+    {
+      "id": "grain",
+      "type": "grain",
+      "in": 0,
+      "dur": 8,
+      "props": {
+        "alpha": 0.06,
+        "tile": 128,
+        "contrast": 0.5,
+        "blend": "overlay"
+      }
+    },
+    {
+      "id": "vig",
+      "type": "vignette",
+      "in": 0,
+      "dur": 8,
+      "props": {
+        "color": "#07080a",
+        "alpha": 0.6,
+        "r": 0.86,
+        "feather": 0.5
+      }
+    }
+  ]
+}

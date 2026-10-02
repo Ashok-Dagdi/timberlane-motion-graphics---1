@@ -1,0 +1,2482 @@
+{
+  "name": "timberlane-30s",
+  "title": "TIMBERLANE — “PRESTIGE” 30 s vertical spot",
+  "client": "Timberlane Interiors · timberlane.co.in",
+  "fps": 30,
+  "meta": {
+    "width": 1080,
+    "height": 1920,
+    "duration": 30,
+    "base": "#08090a",
+    "title": "Timberlane — 30s",
+    "fps": 30
+  },
+  "theme": {
+    "ink": "#f4f1ea",
+    "orange": "#c45a0f",
+    "ember": "#ff6a1a",
+    "ash": "#9aa0a8",
+    "grey": "#373B42",
+    "fonts": {
+      "display": "Anton",
+      "grotesk": "Archivo",
+      "mono": "JetBrains Mono",
+      "serif": "Playfair Display"
+    }
+  },
+  "music": {
+    "bpm": 120,
+    "key": "A minor",
+    "title": "Warm Concrete",
+    "bar": 2
+  },
+  "camera": {
+    "keys": [
+      {
+        "t": 0,
+        "x": 0,
+        "y": 0,
+        "zoom": 1.05
+      },
+      {
+        "t": 2.6,
+        "x": 0,
+        "y": -8,
+        "zoom": 1,
+        "ease": "expoOut"
+      },
+      {
+        "t": 6.2,
+        "x": 12,
+        "y": 6,
+        "zoom": 1.045,
+        "ease": "swift"
+      },
+      {
+        "t": 10.4,
+        "x": -10,
+        "y": -4,
+        "zoom": 1,
+        "ease": "expoOut"
+      },
+      {
+        "t": 14,
+        "x": 0,
+        "y": 10,
+        "zoom": 1.03,
+        "ease": "swift"
+      },
+      {
+        "t": 18,
+        "x": -14,
+        "y": 0,
+        "zoom": 1,
+        "ease": "expoOut"
+      },
+      {
+        "t": 21.6,
+        "x": 8,
+        "y": -6,
+        "zoom": 1.02,
+        "ease": "swift"
+      },
+      {
+        "t": 25,
+        "x": 0,
+        "y": 0,
+        "zoom": 1,
+        "ease": "expoOut"
+      },
+      {
+        "t": 27.55,
+        "x": 0,
+        "y": 4,
+        "zoom": 1.035,
+        "ease": "expoOut"
+      },
+      {
+        "t": 30,
+        "x": 0,
+        "y": 0,
+        "zoom": 1,
+        "ease": "sineInOut"
+      }
+    ],
+    "beat": {
+      "amount": 0.008,
+      "every": 1
+    },
+    "drift": 5,
+    "handheld": 2.2
+  },
+  "beats": [
+    0,
+    2.6,
+    6.2,
+    10.4,
+    14,
+    18,
+    21.6,
+    25,
+    27.55
+  ],
+  "assets": {
+    "hero": "https://images.pexels.com/photos/31949939/pexels-photo-31949939.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1080&h=1920",
+    "lounge": "https://images.pexels.com/photos/38874193/pexels-photo-38874193.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1080&h=1920",
+    "kitchen": "https://images.pexels.com/photos/38310800/pexels-photo-38310800.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1080&h=1920",
+    "bedroom": "https://images.pexels.com/photos/37468270/pexels-photo-37468270.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1080&h=1920",
+    "wardrobe": "https://images.pexels.com/photos/38697208/pexels-photo-38697208.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1080&h=1920",
+    "luxe": "https://images.pexels.com/photos/34538315/pexels-photo-34538315.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1080&h=1920",
+    "contemporary": "https://images.pexels.com/photos/7722158/pexels-photo-7722158.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1080&h=1920",
+    "leather": "https://images.pexels.com/photos/5942741/pexels-photo-5942741.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1080&h=1920",
+    "armchair": "https://images.pexels.com/photos/13490219/pexels-photo-13490219.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1080&h=1920",
+    "rustic": "https://images.pexels.com/photos/30767894/pexels-photo-30767894.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1080&h=1920",
+    "kitchen2": "https://images.pexels.com/photos/6436783/pexels-photo-6436783.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1080&h=1920",
+    "dining": "https://images.pexels.com/photos/10117728/pexels-photo-10117728.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1080&h=1920",
+    "markWhite": "logo:timberlane?tint=%23f1efec&bg=none",
+    "roll": "https://videos.pexels.com/video-files/34835401/14765990_1080_1920_30fps.mp4"
+  },
+  "layers": [
+    {
+      "id": "bg_base",
+      "type": "bg",
+      "name": "base wash",
+      "in": 0,
+      "dur": 30,
+      "t": {},
+      "anim": {
+        "enter": "none",
+        "exit": "none"
+      },
+      "props": {
+        "mode": "linear",
+        "angle": 148,
+        "colors": [
+          "#0b0c0e",
+          "#1c2024",
+          "#0e1013"
+        ],
+        "drift": 9,
+        "pools": [
+          {
+            "x": 0.18,
+            "y": 0.1,
+            "r": 0.75,
+            "c": "#c45a0f",
+            "a": 0.15,
+            "spin": 0.02
+          },
+          {
+            "x": 0.86,
+            "y": 0.72,
+            "r": 0.6,
+            "c": "#3a4450",
+            "a": 0.18,
+            "spin": -0.015
+          }
+        ]
+      }
+    },
+    {
+      "id": "fx_dust",
+      "type": "particles",
+      "name": "dust",
+      "in": 0,
+      "dur": 30,
+      "t": {},
+      "anim": {
+        "enter": "none",
+        "exit": "none"
+      },
+      "props": {
+        "count": 62,
+        "shape": "glow",
+        "color": "#ffd9b8",
+        "color2": "#c45a0f",
+        "alpha": 0.34,
+        "size": 3.2,
+        "speed": 0.42,
+        "life": 26,
+        "rise": true,
+        "sway": 0.35,
+        "swayAmp": 26,
+        "flicker": true,
+        "blend": "screen"
+      }
+    },
+    {
+      "id": "fx_sweep",
+      "type": "sweep",
+      "name": "light sweep",
+      "in": 0.4,
+      "dur": 29.6,
+      "t": {},
+      "anim": {
+        "enter": "none",
+        "exit": "none"
+      },
+      "props": {
+        "color": "#ffd9b8",
+        "alpha": 0.075,
+        "width": 0.3,
+        "angle": 14,
+        "period": 4,
+        "blend": "screen",
+        "ease": "sineInOut"
+      }
+    },
+    {
+      "id": "fx_vig",
+      "type": "vignette",
+      "name": "vignette",
+      "in": 0,
+      "dur": 30,
+      "t": {},
+      "anim": {
+        "enter": "none",
+        "exit": "none"
+      },
+      "props": {
+        "color": "#000000",
+        "alpha": 0.55,
+        "r": 0.84,
+        "cy": 0.48,
+        "feather": 0.62,
+        "topGlow": "#c45a0f",
+        "topGlowAlpha": 0.1
+      }
+    },
+    {
+      "id": "fx_grain",
+      "type": "grain",
+      "name": "film grain",
+      "in": 0,
+      "dur": 30,
+      "t": {},
+      "anim": {
+        "enter": "none",
+        "exit": "none"
+      },
+      "props": {
+        "alpha": 0.062,
+        "tile": 220,
+        "contrast": 0.62,
+        "blend": "overlay",
+        "flicker": true
+      }
+    },
+    {
+      "id": "ui_frame",
+      "type": "frame",
+      "name": "reel chrome",
+      "in": 0.15,
+      "dur": 29.85,
+      "t": {},
+      "anim": {
+        "enter": "none",
+        "exit": "none"
+      },
+      "props": {
+        "margin": 46,
+        "len": 62,
+        "w": 3,
+        "color": "#f4f1ea",
+        "alpha": 0.34,
+        "label": "REEL 08 · TIMBERLANE",
+        "right": "9:16 · 30.0s",
+        "tc": true,
+        "labelSize": 21,
+        "labelColor": "#9aa0a8",
+        "dur": 0.7
+      }
+    },
+    {
+      "id": "ui_progress",
+      "type": "progress",
+      "name": "timeline",
+      "in": 0,
+      "dur": 30,
+      "t": {
+        "x": 540,
+        "y": 1876,
+        "w": 900,
+        "h": 26
+      },
+      "anim": {
+        "enter": "none",
+        "exit": "none"
+      },
+      "props": {
+        "barH": 4,
+        "color": "#ff6a1a",
+        "grad": [
+          "#c45a0f",
+          "#ff6a1a"
+        ],
+        "track": "#ffffff",
+        "trackAlpha": 0.12,
+        "marks": [
+          2.6,
+          6.2,
+          10.4,
+          14,
+          18,
+          21.6,
+          25,
+          27.55
+        ],
+        "markColor": "#f4f1ea",
+        "markW": 2,
+        "head": true,
+        "headColor": "#ff6a1a",
+        "headR": 5
+      }
+    },
+    {
+      "id": "co_p1",
+      "type": "photo",
+      "name": "flash · kitchen",
+      "in": 0,
+      "dur": 1.02,
+      "t": {
+        "x": 540,
+        "y": 960,
+        "w": 1080,
+        "h": 1920
+      },
+      "anim": {
+        "enter": "wipeR",
+        "exit": "wipeL",
+        "dur": 0.26,
+        "ease": "expoOut",
+        "exitDur": 0.2
+      },
+      "props": {
+        "src": "kitchen",
+        "dim": 0.2,
+        "scrim": true,
+        "scrimAlpha": 0.5,
+        "tint": "#c45a0f",
+        "tintAlpha": 0.16,
+        "tintBlend": "soft-light",
+        "kb": {
+          "from": {
+            "z": 1.22,
+            "x": -26,
+            "y": 18
+          },
+          "to": {
+            "z": 1.02,
+            "x": 20,
+            "y": -14
+          },
+          "ease": "linear"
+        },
+        "chroma": 0.02
+      }
+    },
+    {
+      "id": "co_l1",
+      "type": "text",
+      "name": "label 01",
+      "in": 0.06,
+      "dur": 0.9,
+      "t": {
+        "x": 540,
+        "y": 1704,
+        "w": 880,
+        "h": 44
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.14,
+        "exitDur": 0.12
+      },
+      "props": {
+        "text": "MODULAR KITCHEN — 01",
+        "font": "mono",
+        "size": 26,
+        "weight": 500,
+        "tracking": 16,
+        "align": "left",
+        "color": "#f4f1ea",
+        "accent": "#ff6a1a",
+        "reveal": "wordsLeft",
+        "revealDur": 0.3,
+        "stagger": 0.02,
+        "ul": "#c45a0f",
+        "ulW": 3,
+        "ulDelay": 0.16,
+        "ulDur": 0.3
+      }
+    },
+    {
+      "id": "co_p2",
+      "type": "photo",
+      "name": "flash · bedroom",
+      "in": 0.95,
+      "dur": 1.02,
+      "t": {
+        "x": 540,
+        "y": 960,
+        "w": 1080,
+        "h": 1920
+      },
+      "anim": {
+        "enter": "wipeL",
+        "exit": "wipeR",
+        "dur": 0.26,
+        "ease": "expoOut",
+        "exitDur": 0.2
+      },
+      "props": {
+        "src": "bedroom",
+        "dim": 0.22,
+        "scrim": true,
+        "scrimAlpha": 0.5,
+        "tint": "#5a6b7c",
+        "tintAlpha": 0.2,
+        "tintBlend": "soft-light",
+        "kb": {
+          "from": {
+            "z": 1.02,
+            "x": 18,
+            "y": -12
+          },
+          "to": {
+            "z": 1.24,
+            "x": -22,
+            "y": 16
+          },
+          "ease": "linear"
+        },
+        "chroma": 0.02
+      }
+    },
+    {
+      "id": "co_l2",
+      "type": "text",
+      "name": "label 02",
+      "in": 1.01,
+      "dur": 0.9,
+      "t": {
+        "x": 540,
+        "y": 1704,
+        "w": 880,
+        "h": 44
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.14,
+        "exitDur": 0.12
+      },
+      "props": {
+        "text": "WALK-IN WARDROBE — 02",
+        "font": "mono",
+        "size": 26,
+        "weight": 500,
+        "tracking": 16,
+        "align": "right",
+        "color": "#f4f1ea",
+        "reveal": "wordsLeft",
+        "revealDur": 0.3,
+        "stagger": 0.02
+      }
+    },
+    {
+      "id": "co_p3",
+      "type": "photo",
+      "name": "flash · living",
+      "in": 1.9,
+      "dur": 0.86,
+      "t": {
+        "x": 540,
+        "y": 960,
+        "w": 1080,
+        "h": 1920
+      },
+      "anim": {
+        "enter": "wipeU",
+        "exit": "wipeD",
+        "dur": 0.24,
+        "ease": "expoOut",
+        "exitDur": 0.22
+      },
+      "props": {
+        "src": "luxe",
+        "dim": 0.18,
+        "scrim": true,
+        "scrimAlpha": 0.44,
+        "tint": "#c45a0f",
+        "tintAlpha": 0.2,
+        "kb": {
+          "from": {
+            "z": 1.3,
+            "x": 0,
+            "y": -30
+          },
+          "to": {
+            "z": 1.05,
+            "x": 0,
+            "y": 26
+          },
+          "ease": "linear"
+        }
+      }
+    },
+    {
+      "id": "co_l3",
+      "type": "text",
+      "name": "label 03",
+      "in": 1.96,
+      "dur": 0.74,
+      "t": {
+        "x": 540,
+        "y": 1704,
+        "w": 880,
+        "h": 44
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.14,
+        "exitDur": 0.12
+      },
+      "props": {
+        "text": "LIVING, LIT BY HAND — 03",
+        "font": "mono",
+        "size": 26,
+        "tracking": 16,
+        "align": "left",
+        "color": "#f4f1ea"
+      }
+    },
+    {
+      "id": "co_ticker",
+      "type": "ticker",
+      "name": "top band",
+      "in": 0,
+      "dur": 2.72,
+      "t": {
+        "x": 540,
+        "y": 158,
+        "w": 1080,
+        "h": 66
+      },
+      "anim": {
+        "enter": "down",
+        "exit": "up",
+        "dur": 0.34,
+        "ease": "expoOut",
+        "exitDur": 0.24,
+        "dist": 90
+      },
+      "props": {
+        "text": "INTERIOR ARCHITECTURE",
+        "font": "grotesk",
+        "size": 30,
+        "weight": 800,
+        "tracking": 22,
+        "color": "#140a03",
+        "speed": 240,
+        "dir": "left",
+        "sep": "  ✦  ",
+        "band": "#c45a0f",
+        "bandAlpha": 1
+      }
+    },
+    {
+      "id": "co_counter",
+      "type": "counter",
+      "name": "shot index",
+      "in": 0,
+      "dur": 2.62,
+      "t": {
+        "x": 540,
+        "y": 1560,
+        "w": 520,
+        "h": 130
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.2,
+        "exitDur": 0.16
+      },
+      "props": {
+        "from": 1,
+        "to": 4,
+        "pad": 2,
+        "size": 96,
+        "font": "display",
+        "color": "#f4f1ea",
+        "align": "right",
+        "tick": true,
+        "tickColor": "#ff6a1a",
+        "ease": "quadIn",
+        "label": "",
+        "glow": 0
+      }
+    },
+    {
+      "id": "co_grid",
+      "type": "grid",
+      "name": "blueprint",
+      "in": 0,
+      "dur": 2.7,
+      "t": {
+        "x": 540,
+        "y": 960
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.4,
+        "exitDur": 0.3
+      },
+      "props": {
+        "cell": 90,
+        "color": "#8ea0b0",
+        "alpha": 0.07,
+        "w": 1,
+        "speed": 26
+      }
+    },
+    {
+      "id": "cut_1",
+      "type": "shape",
+      "name": "flash",
+      "in": 2.56,
+      "dur": 0.18,
+      "t": {
+        "x": 540,
+        "y": 960,
+        "w": 1160,
+        "h": 2000
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.04,
+        "ease": "linear",
+        "exitDur": 0.14
+      },
+      "props": {
+        "shape": "rect",
+        "fill": "#fff3e4",
+        "fillAlpha": 0.5
+      },
+      "blend": "screen"
+    },
+    {
+      "id": "tc_card",
+      "type": "bg",
+      "name": "card wash",
+      "in": 2.55,
+      "dur": 3.75,
+      "t": {},
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.34,
+        "exitDur": 0.3
+      },
+      "props": {
+        "mode": "radial",
+        "cx": 0.5,
+        "cy": 0.42,
+        "r": 0.95,
+        "colors": [
+          "#191d21",
+          "#0a0b0c",
+          "#0a0b0c"
+        ],
+        "drift": 6,
+        "pools": [
+          {
+            "x": 0.5,
+            "y": 0.4,
+            "r": 0.5,
+            "c": "#c45a0f",
+            "a": 0.16,
+            "spin": 0.03
+          }
+        ]
+      }
+    },
+    {
+      "id": "tc_grid",
+      "type": "grid",
+      "name": "card grid",
+      "in": 2.6,
+      "dur": 3.7,
+      "t": {
+        "x": 540,
+        "y": 960
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.5,
+        "exitDur": 0.4
+      },
+      "props": {
+        "cell": 108,
+        "color": "#7f93a6",
+        "alpha": 0.1,
+        "w": 1,
+        "speed": 16
+      }
+    },
+    {
+      "id": "tc_mark",
+      "type": "path",
+      "name": "emblem",
+      "in": 2.62,
+      "dur": 3.6,
+      "t": {
+        "x": 540,
+        "y": 800,
+        "w": 860,
+        "h": 260
+      },
+      "anim": {
+        "enter": "none",
+        "exit": "fade",
+        "dur": 0,
+        "exitDur": 0.3
+      },
+      "props": {
+        "logo": "timberlane",
+        "group": "mark",
+        "fit": "viewBox",
+        "drawOn": true,
+        "drawOnDur": 1.3,
+        "drawEase": "cubicOut",
+        "strokeColor": "#ff6a1a",
+        "strokeW": 3,
+        "fillReveal": true,
+        "fillDur": 0.75,
+        "stagger": 0.02,
+        "tint": "#e9e5dd",
+        "keepBrand": false
+      }
+    },
+    {
+      "id": "tc_furn",
+      "type": "path",
+      "name": "the room",
+      "in": 3.44,
+      "dur": 2.78,
+      "t": {
+        "x": 540,
+        "y": 800,
+        "w": 860,
+        "h": 260
+      },
+      "anim": {
+        "enter": "none",
+        "exit": "fade",
+        "dur": 0,
+        "exitDur": 0.3
+      },
+      "props": {
+        "logo": "timberlane",
+        "group": "furn",
+        "fit": "viewBox",
+        "drawOn": true,
+        "drawOnDur": 0.8,
+        "strokeColor": "#f4f1ea",
+        "strokeW": 1.6,
+        "fillReveal": true,
+        "fillDur": 0.5,
+        "tint": "#e9e5dd"
+      }
+    },
+    {
+      "id": "tc_word",
+      "type": "path",
+      "name": "wordmark",
+      "in": 3.9,
+      "dur": 2.32,
+      "t": {
+        "x": 540,
+        "y": 800,
+        "w": 860,
+        "h": 260
+      },
+      "anim": {
+        "enter": "none",
+        "exit": "fade",
+        "dur": 0,
+        "exitDur": 0.3
+      },
+      "props": {
+        "logo": "timberlane",
+        "group": "word",
+        "fit": "viewBox",
+        "clipReveal": true,
+        "clipDur": 0.95,
+        "clipEase": "expoOut",
+        "stagger": 0.045,
+        "partDur": 0.5,
+        "tint": "#f4f1ea",
+        "keepBrand": true
+      }
+    },
+    {
+      "id": "tc_rule",
+      "type": "shape",
+      "name": "rule",
+      "in": 4.42,
+      "dur": 1.75,
+      "t": {
+        "x": 540,
+        "y": 962,
+        "w": 800,
+        "h": 2
+      },
+      "anim": {
+        "enter": "none",
+        "exit": "fade",
+        "dur": 0,
+        "exitDur": 0.25
+      },
+      "props": {
+        "shape": "line",
+        "strokeW": 2,
+        "fill": "#ff6a1a",
+        "fillAlpha": 0.85,
+        "grow": true,
+        "growDur": 0.9,
+        "growEase": "expoOut",
+        "glow": 14,
+        "glowColor": "#c45a0f"
+      }
+    },
+    {
+      "id": "tc_tag",
+      "type": "text",
+      "name": "tagline",
+      "in": 4.6,
+      "dur": 1.6,
+      "t": {
+        "x": 540,
+        "y": 1024,
+        "w": 900,
+        "h": 40
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.3,
+        "ease": "swift",
+        "exitDur": 0.22
+      },
+      "props": {
+        "text": "PRECISION IN EVERY DETAIL",
+        "font": "grotesk",
+        "size": 30,
+        "weight": 700,
+        "tracking": 26,
+        "align": "center",
+        "color": "#f4f1ea",
+        "accent": "#ff6a1a",
+        "reveal": "wordsUp",
+        "revealDur": 0.42,
+        "stagger": 0.035
+      }
+    },
+    {
+      "id": "tc_kick",
+      "type": "text",
+      "name": "kicker",
+      "in": 4.9,
+      "dur": 1.3,
+      "t": {
+        "x": 540,
+        "y": 1096,
+        "w": 980,
+        "h": 36
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.3,
+        "exitDur": 0.2
+      },
+      "props": {
+        "text": "EST. 2014 · BENGALURU · TURNKEY INTERIORS",
+        "font": "mono",
+        "size": 21,
+        "tracking": 10,
+        "align": "center",
+        "color": "#9aa0a8",
+        "reveal": "wordsLeft",
+        "revealDur": 0.35,
+        "stagger": 0.02
+      }
+    },
+    {
+      "id": "cut_2",
+      "type": "shape",
+      "name": "flash",
+      "in": 6.14,
+      "dur": 0.16,
+      "t": {
+        "x": 540,
+        "y": 960,
+        "w": 1160,
+        "h": 2000
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.04,
+        "exitDur": 0.12
+      },
+      "props": {
+        "shape": "rect",
+        "fill": "#ffd9b8",
+        "fillAlpha": 0.34
+      },
+      "blend": "screen"
+    },
+    {
+      "id": "hero_plate",
+      "type": "photo",
+      "name": "hero plate",
+      "in": 6.16,
+      "dur": 4.34,
+      "t": {
+        "x": 540,
+        "y": 960,
+        "w": 1080,
+        "h": 1920
+      },
+      "anim": {
+        "enter": "wipeU",
+        "exit": "wipeD",
+        "dur": 0.8,
+        "ease": "expoOut",
+        "exitDur": 0.4
+      },
+      "props": {
+        "src": "hero",
+        "dim": 0.46,
+        "dimColor": "#0a0b0c",
+        "scrim": true,
+        "scrimAlpha": 0.86,
+        "tint": "#c45a0f",
+        "tintAlpha": 0.2,
+        "tintBlend": "soft-light",
+        "kb": {
+          "from": {
+            "z": 1.2,
+            "x": -24,
+            "y": 26
+          },
+          "to": {
+            "z": 1,
+            "x": 22,
+            "y": -22
+          },
+          "ease": "sineInOut"
+        },
+        "chroma": 0.015
+      }
+    },
+    {
+      "id": "hero_head",
+      "type": "text",
+      "name": "headline",
+      "in": 6.5,
+      "dur": 3.9,
+      "t": {
+        "x": 540,
+        "y": 1130,
+        "w": 880,
+        "h": 538
+      },
+      "anim": {
+        "enter": "none",
+        "exit": "fade",
+        "dur": 0,
+        "exitDur": 0.3
+      },
+      "props": {
+        "text": "WE BUILD THE\nROOMS YOU\n**LIVE IN.**",
+        "font": "display",
+        "size": 168,
+        "tracking": -3,
+        "leading": 0.88,
+        "align": "left",
+        "color": "#f4f1ea",
+        "accent": "#ff6a1a",
+        "reveal": "wordsUp",
+        "revealDur": 0.55,
+        "revealDist": 210,
+        "stagger": 0.085,
+        "revealEase": "expoOut"
+      }
+    },
+    {
+      "id": "hero_ul",
+      "type": "shape",
+      "name": "rule",
+      "in": 7.3,
+      "dur": 3.05,
+      "t": {
+        "x": 540,
+        "y": 1428,
+        "w": 330,
+        "h": 4
+      },
+      "anim": {
+        "enter": "none",
+        "exit": "fade",
+        "dur": 0,
+        "exitDur": 0.25
+      },
+      "props": {
+        "shape": "rect",
+        "fill": "#ff6a1a",
+        "radius": 2,
+        "grow": true,
+        "growDur": 0.85,
+        "growEase": "expoOut",
+        "glow": 12,
+        "glowColor": "#c45a0f"
+      }
+    },
+    {
+      "id": "hero_sub",
+      "type": "text",
+      "name": "sub",
+      "in": 7.5,
+      "dur": 2.9,
+      "t": {
+        "x": 540,
+        "y": 1516,
+        "w": 860,
+        "h": 120
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.4,
+        "ease": "swift",
+        "exitDur": 0.28
+      },
+      "props": {
+        "text": "Design, build and handover under one contract — one team, one date, one bill.",
+        "font": "grotesk",
+        "size": 36,
+        "weight": 500,
+        "leading": 1.28,
+        "align": "left",
+        "color": "#d5d9de",
+        "reveal": "lines",
+        "revealDur": 0.5,
+        "stagger": 0.09
+      }
+    },
+    {
+      "id": "hero_tag",
+      "type": "text",
+      "name": "corner tag",
+      "in": 8.2,
+      "dur": 2.2,
+      "t": {
+        "x": 540,
+        "y": 260,
+        "w": 880,
+        "h": 34
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.25,
+        "exitDur": 0.2
+      },
+      "props": {
+        "text": "01 / 06 — THE STUDIO",
+        "font": "mono",
+        "size": 22,
+        "tracking": 14,
+        "align": "left",
+        "color": "#9aa0a8",
+        "reveal": "wordsLeft"
+      }
+    },
+    {
+      "id": "cut_3",
+      "type": "shape",
+      "name": "flash",
+      "in": 10.34,
+      "dur": 0.16,
+      "t": {
+        "x": 540,
+        "y": 960,
+        "w": 1160,
+        "h": 2000
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.04,
+        "exitDur": 0.12
+      },
+      "props": {
+        "shape": "rect",
+        "fill": "#fff3e4",
+        "fillAlpha": 0.4
+      },
+      "blend": "screen"
+    },
+    {
+      "id": "mat_bg",
+      "type": "bg",
+      "name": "materials wash",
+      "in": 10.3,
+      "dur": 3.8,
+      "t": {},
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.3,
+        "exitDur": 0.26
+      },
+      "props": {
+        "mode": "radial",
+        "cx": 0.3,
+        "cy": 0.15,
+        "r": 1.1,
+        "colors": [
+          "#211d19",
+          "#101215"
+        ],
+        "drift": 14,
+        "pools": [
+          {
+            "x": 0.8,
+            "y": 0.85,
+            "r": 0.55,
+            "c": "#c45a0f",
+            "a": 0.14
+          }
+        ]
+      }
+    },
+    {
+      "id": "mat_head",
+      "type": "text",
+      "name": "materials head",
+      "in": 10.46,
+      "dur": 3.5,
+      "t": {
+        "x": 540,
+        "y": 372,
+        "w": 880,
+        "h": 371
+      },
+      "anim": {
+        "enter": "none",
+        "exit": "fade",
+        "dur": 0,
+        "exitDur": 0.24
+      },
+      "props": {
+        "text": "MATERIALS\n& FINISHES",
+        "font": "display",
+        "size": 116,
+        "tracking": -3,
+        "leading": 0.92,
+        "align": "left",
+        "color": "#f4f1ea",
+        "accent": "#ff6a1a",
+        "reveal": "lines",
+        "revealDur": 0.55,
+        "revealDist": 180,
+        "stagger": 0.11,
+        "revealEase": "expoOut"
+      }
+    },
+    {
+      "id": "mat_sub",
+      "type": "text",
+      "name": "materials sub",
+      "in": 10.95,
+      "dur": 3,
+      "t": {
+        "x": 540,
+        "y": 566,
+        "w": 880,
+        "h": 40
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.35,
+        "exitDur": 0.2
+      },
+      "props": {
+        "text": "28 FINISHES, SAMPLED IN YOUR OWN LIGHT",
+        "font": "mono",
+        "size": 22,
+        "tracking": 8,
+        "align": "left",
+        "color": "#9aa0a8",
+        "reveal": "wordsLeft",
+        "stagger": 0.022
+      }
+    },
+    {
+      "id": "mat_grid",
+      "type": "swatch",
+      "name": "swatch grid",
+      "in": 11,
+      "dur": 3.05,
+      "t": {
+        "x": 540,
+        "y": 1090,
+        "w": 900,
+        "h": 900
+      },
+      "anim": {
+        "enter": "none",
+        "exit": "scale",
+        "exitDur": 0.34,
+        "ease": "swift"
+      },
+      "props": {
+        "cols": 3,
+        "gap": 18,
+        "radius": 12,
+        "stagger": 0.075,
+        "itemDur": 0.62,
+        "ease": "backOut",
+        "labelSize": 22,
+        "labelColor": "#181a1d",
+        "subColor": "rgba(24,26,29,.62)",
+        "upper": true,
+        "tint": "#c45a0f",
+        "tintAlpha": 0.04,
+        "rotFrom": 7,
+        "items": [
+          {
+            "label": "OAK",
+            "sub": "18 MM SOLID",
+            "color": "#c8955f"
+          },
+          {
+            "label": "WALNUT",
+            "sub": "OIL FINISH",
+            "color": "#6b4a33"
+          },
+          {
+            "label": "BOUCLÉ",
+            "sub": "IVORY",
+            "color": "#e6e0d6"
+          },
+          {
+            "label": "STONE",
+            "sub": "HONED",
+            "color": "#c9c6bf"
+          },
+          {
+            "label": "BRASS",
+            "sub": "BRUSHED",
+            "color": "#a9803f"
+          },
+          {
+            "label": "LINEN",
+            "sub": "NATURAL",
+            "color": "#c3b7a6"
+          },
+          {
+            "label": "TERRAZZO",
+            "sub": "CAST",
+            "color": "#b6afa3"
+          },
+          {
+            "label": "SMOKE",
+            "sub": "GLASS",
+            "color": "#4c525a"
+          },
+          {
+            "label": "LEATHER",
+            "sub": "TANNED",
+            "color": "#7c4a2e"
+          }
+        ]
+      }
+    },
+    {
+      "id": "mat_note",
+      "type": "text",
+      "name": "materials note",
+      "in": 12.7,
+      "dur": 1.35,
+      "t": {
+        "x": 540,
+        "y": 1638,
+        "w": 880,
+        "h": 40
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.3,
+        "exitDur": 0.2
+      },
+      "props": {
+        "text": "EVERY TILE IS IN THE CARTRIDGE — 4 WEEKS TO ORDER",
+        "font": "mono",
+        "size": 20,
+        "tracking": 8,
+        "align": "right",
+        "color": "#ff6a1a",
+        "reveal": "wordsLeft"
+      }
+    },
+    {
+      "id": "num_bg",
+      "type": "bg",
+      "name": "numbers wash",
+      "in": 13.94,
+      "dur": 4.2,
+      "t": {},
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.3,
+        "exitDur": 0.26
+      },
+      "props": {
+        "mode": "linear",
+        "angle": 22,
+        "colors": [
+          "#0d0f11",
+          "#181c21",
+          "#0c0e10"
+        ],
+        "drift": 5
+      }
+    },
+    {
+      "id": "num_grid",
+      "type": "grid",
+      "name": "numbers grid",
+      "in": 13.98,
+      "dur": 4.16,
+      "t": {
+        "x": 540,
+        "y": 960
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.4,
+        "exitDur": 0.3
+      },
+      "props": {
+        "cell": 62,
+        "color": "#7f93a6",
+        "alpha": 0.14,
+        "w": 1,
+        "speed": 22
+      }
+    },
+    {
+      "id": "num_head",
+      "type": "text",
+      "name": "numbers head",
+      "in": 14.1,
+      "dur": 3.95,
+      "t": {
+        "x": 540,
+        "y": 392,
+        "w": 880,
+        "h": 358
+      },
+      "anim": {
+        "enter": "none",
+        "exit": "fade",
+        "dur": 0,
+        "exitDur": 0.24
+      },
+      "props": {
+        "text": "THE NUMBERS\nBEHIND THE\n**FINISH.**",
+        "font": "display",
+        "size": 112,
+        "tracking": -3,
+        "leading": 0.9,
+        "align": "left",
+        "color": "#f4f1ea",
+        "accent": "#ff6a1a",
+        "reveal": "wordsUp",
+        "revealDur": 0.55,
+        "revealDist": 180,
+        "stagger": 0.07,
+        "revealEase": "expoOut"
+      }
+    },
+    {
+      "id": "num_c1",
+      "type": "counter",
+      "name": "homes",
+      "in": 14.5,
+      "dur": 3.5,
+      "t": {
+        "x": 540,
+        "y": 790,
+        "w": 880,
+        "h": 190
+      },
+      "anim": {
+        "enter": "rise",
+        "exit": "fade",
+        "dur": 0.5,
+        "ease": "expoOut",
+        "exitDur": 0.25
+      },
+      "props": {
+        "from": 0,
+        "to": 520,
+        "suffix": "+",
+        "size": 132,
+        "font": "display",
+        "weight": 400,
+        "color": "#f4f1ea",
+        "align": "left",
+        "label": "HOMES DELIVERED",
+        "labelSize": 24,
+        "labelColor": "#ff6a1a",
+        "ease": "expoOut",
+        "tail": 0.5,
+        "bar": true,
+        "barColor": "#c45a0f",
+        "barTrack": "rgba(255,255,255,.12)",
+        "barH": 4
+      }
+    },
+    {
+      "id": "num_c2",
+      "type": "counter",
+      "name": "years",
+      "in": 14.86,
+      "dur": 3.14,
+      "t": {
+        "x": 540,
+        "y": 982,
+        "w": 880,
+        "h": 190
+      },
+      "anim": {
+        "enter": "rise",
+        "exit": "fade",
+        "dur": 0.5,
+        "ease": "expoOut",
+        "exitDur": 0.25
+      },
+      "props": {
+        "from": 0,
+        "to": 11,
+        "suffix": " YRS",
+        "size": 132,
+        "font": "display",
+        "color": "#f4f1ea",
+        "align": "left",
+        "label": "BUILDING IN BENGALURU",
+        "labelSize": 24,
+        "labelColor": "#9aa0a8",
+        "ease": "expoOut",
+        "tail": 0.5,
+        "bar": true,
+        "barColor": "#5f666e",
+        "barH": 4
+      }
+    },
+    {
+      "id": "num_c3",
+      "type": "counter",
+      "name": "ontime",
+      "in": 15.22,
+      "dur": 2.78,
+      "t": {
+        "x": 540,
+        "y": 1174,
+        "w": 880,
+        "h": 190
+      },
+      "anim": {
+        "enter": "rise",
+        "exit": "fade",
+        "dur": 0.5,
+        "ease": "expoOut",
+        "exitDur": 0.25
+      },
+      "props": {
+        "from": 0,
+        "to": 98,
+        "suffix": "%",
+        "size": 132,
+        "font": "display",
+        "color": "#ff6a1a",
+        "align": "left",
+        "label": "ON-TIME HANDOVER",
+        "labelSize": 24,
+        "labelColor": "#f4f1ea",
+        "ease": "expoOut",
+        "tail": 0.5,
+        "bar": true,
+        "barColor": "#ff6a1a",
+        "barH": 4
+      }
+    },
+    {
+      "id": "num_stars",
+      "type": "stars",
+      "name": "rating",
+      "in": 15.75,
+      "dur": 2.25,
+      "t": {
+        "x": 176,
+        "y": 1354,
+        "w": 300,
+        "h": 44
+      },
+      "anim": {
+        "enter": "scale",
+        "exit": "fade",
+        "dur": 0.4,
+        "ease": "backOut",
+        "exitDur": 0.2
+      },
+      "props": {
+        "value": 4.9,
+        "size": 34,
+        "gap": 10,
+        "color": "#ffb066",
+        "emptyColor": "rgba(255,255,255,.18)",
+        "stagger": 0.06,
+        "dur": 0.42
+      }
+    },
+    {
+      "id": "num_rev",
+      "type": "text",
+      "name": "reviews",
+      "in": 15.95,
+      "dur": 2.05,
+      "t": {
+        "x": 610,
+        "y": 1354,
+        "w": 560,
+        "h": 40
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.3,
+        "exitDur": 0.2
+      },
+      "props": {
+        "text": "4.9 / 5 AVERAGE · 214 VERIFIED REVIEWS",
+        "font": "mono",
+        "size": 22,
+        "tracking": 6,
+        "align": "left",
+        "color": "#9aa0a8",
+        "reveal": "wordsLeft"
+      }
+    },
+    {
+      "id": "num_bars",
+      "type": "bars",
+      "name": "spectrum",
+      "in": 14.4,
+      "dur": 3.6,
+      "t": {
+        "x": 540,
+        "y": 1616,
+        "w": 880,
+        "h": 90
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.35,
+        "exitDur": 0.3
+      },
+      "props": {
+        "count": 42,
+        "gap": 7,
+        "min": 5,
+        "radius": 3,
+        "amp": 1.05,
+        "grad": [
+          "#ff6a1a",
+          "#39404a"
+        ],
+        "beat": true,
+        "beatAmt": 0.5,
+        "origin": "bottom",
+        "mirror": false
+      }
+    },
+    {
+      "id": "num_sweep",
+      "type": "sweep",
+      "name": "numbers sweep",
+      "in": 15,
+      "dur": 2.6,
+      "t": {},
+      "anim": {
+        "enter": "none",
+        "exit": "none"
+      },
+      "props": {
+        "color": "#ffe7cc",
+        "alpha": 0.14,
+        "width": 0.24,
+        "angle": 12,
+        "once": true,
+        "delay": 0.15,
+        "dur": 1.5,
+        "blend": "screen",
+        "ease": "quintOut"
+      }
+    },
+    {
+      "id": "cut_4",
+      "type": "shape",
+      "name": "flash",
+      "in": 17.94,
+      "dur": 0.16,
+      "t": {
+        "x": 540,
+        "y": 960,
+        "w": 1160,
+        "h": 2000
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.04,
+        "exitDur": 0.12
+      },
+      "props": {
+        "shape": "rect",
+        "fill": "#fff3e4",
+        "fillAlpha": 0.38
+      },
+      "blend": "screen"
+    },
+    {
+      "id": "pr_bg",
+      "type": "bg",
+      "name": "work wash",
+      "in": 17.9,
+      "dur": 3.95,
+      "t": {},
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.3,
+        "exitDur": 0.26
+      },
+      "props": {
+        "mode": "linear",
+        "angle": 338,
+        "colors": [
+          "#14171a",
+          "#2a2521",
+          "#0f1113"
+        ],
+        "drift": 12,
+        "pools": [
+          {
+            "x": 0.78,
+            "y": 0.24,
+            "r": 0.62,
+            "c": "#c45a0f",
+            "a": 0.12
+          }
+        ]
+      }
+    },
+    {
+      "id": "pr_head",
+      "type": "text",
+      "name": "work head",
+      "in": 18.06,
+      "dur": 3.6,
+      "t": {
+        "x": 540,
+        "y": 336,
+        "w": 880,
+        "h": 410
+      },
+      "anim": {
+        "enter": "maskUp",
+        "exit": "fade",
+        "dur": 0.55,
+        "exitDur": 0.22
+      },
+      "props": {
+        "text": "SELECTED\nWORK",
+        "font": "display",
+        "size": 128,
+        "tracking": -3,
+        "leading": 0.92,
+        "align": "left",
+        "color": "#f4f1ea",
+        "accent": "#ff6a1a",
+        "reveal": "lines",
+        "revealDur": 0.55,
+        "revealDist": 180,
+        "stagger": 0.12,
+        "revealEase": "expoOut"
+      }
+    },
+    {
+      "id": "pr_strip",
+      "type": "strip",
+      "name": "projects",
+      "in": 18.32,
+      "dur": 3.32,
+      "t": {
+        "x": 540,
+        "y": 1030,
+        "w": 984,
+        "h": 1180
+      },
+      "anim": {
+        "enter": "none",
+        "exit": "left",
+        "exitDur": 0.34,
+        "dist": 120
+      },
+      "props": {
+        "gap": 14,
+        "radius": 8,
+        "stagger": 0.13,
+        "itemDur": 0.6,
+        "dim": 0.16,
+        "ease": "expoOut",
+        "rise": 90,
+        "labelFont": "mono",
+        "labelSize": 20,
+        "labelColor": "#f4f1ea",
+        "clip": "none",
+        "scrim": true,
+        "scrimAlpha": 0.6,
+        "items": [
+          {
+            "src": "lounge",
+            "label": "LIVING"
+          },
+          {
+            "src": "kitchen2",
+            "label": "KITCHEN"
+          },
+          {
+            "src": "wardrobe",
+            "label": "WARDROBE"
+          },
+          {
+            "src": "rustic",
+            "label": "DECK"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pr_foot",
+      "type": "text",
+      "name": "work foot",
+      "in": 19.5,
+      "dur": 2.15,
+      "t": {
+        "x": 540,
+        "y": 1698,
+        "w": 900,
+        "h": 44
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.35,
+        "exitDur": 0.22
+      },
+      "props": {
+        "text": "142 PROJECTS · 9 CITIES · ONE STUDIO",
+        "font": "mono",
+        "size": 22,
+        "tracking": 8,
+        "align": "center",
+        "color": "#ff6a1a",
+        "reveal": "wordsUp",
+        "stagger": 0.03
+      }
+    },
+    {
+      "id": "pr_sweep",
+      "type": "sweep",
+      "name": "glass pass",
+      "in": 18.9,
+      "dur": 2.2,
+      "t": {},
+      "anim": {
+        "enter": "none",
+        "exit": "none"
+      },
+      "props": {
+        "color": "#fff0dd",
+        "alpha": 0.1,
+        "width": 0.2,
+        "angle": 8,
+        "once": true,
+        "delay": 0.4,
+        "dur": 1.3,
+        "blend": "screen"
+      }
+    },
+    {
+      "id": "ts_bg",
+      "type": "bg",
+      "name": "quiet wash",
+      "in": 21.5,
+      "dur": 3.7,
+      "t": {},
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.4,
+        "exitDur": 0.3
+      },
+      "props": {
+        "mode": "radial",
+        "cx": 0.62,
+        "cy": 0.3,
+        "r": 1.05,
+        "colors": [
+          "#1b1d21",
+          "#0c0d0f"
+        ],
+        "drift": 4
+      }
+    },
+    {
+      "id": "ts_plate",
+      "type": "photo",
+      "name": "client home",
+      "in": 21.68,
+      "dur": 3.5,
+      "t": {
+        "x": 760,
+        "y": 616,
+        "w": 520,
+        "h": 620
+      },
+      "anim": {
+        "enter": "zoomIn",
+        "exit": "circle",
+        "dur": 0.9,
+        "ease": "expoOut",
+        "exitDur": 0.34
+      },
+      "props": {
+        "src": "contemporary",
+        "clip": "blob",
+        "dim": 0.1,
+        "tint": "#c45a0f",
+        "tintAlpha": 0.14,
+        "radius": 0,
+        "kb": {
+          "from": {
+            "z": 1.14,
+            "x": 14,
+            "y": 10
+          },
+          "to": {
+            "z": 1,
+            "x": -12,
+            "y": -8
+          },
+          "ease": "sineInOut"
+        }
+      }
+    },
+    {
+      "id": "ts_quote",
+      "type": "text",
+      "name": "quote",
+      "in": 22.15,
+      "dur": 3.05,
+      "t": {
+        "x": 540,
+        "y": 1152,
+        "w": 820,
+        "h": 320
+      },
+      "anim": {
+        "enter": "maskUp",
+        "exit": "fade",
+        "dur": 0.5,
+        "ease": "expoOut",
+        "exitDur": 0.3
+      },
+      "props": {
+        "text": "They drew it, then they built it — on the day they said.",
+        "font": "serif",
+        "size": 52,
+        "italic": true,
+        "leading": 1.16,
+        "align": "left",
+        "color": "#efece6",
+        "accent": "#ff6a1a",
+        "reveal": "rise",
+        "revealDur": 0.62,
+        "stagger": 0.1,
+        "revealDist": 40
+      }
+    },
+    {
+      "id": "ts_attr",
+      "type": "text",
+      "name": "attribution",
+      "in": 22.85,
+      "dur": 2.35,
+      "t": {
+        "x": 540,
+        "y": 1358,
+        "w": 820,
+        "h": 40
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.35,
+        "exitDur": 0.2
+      },
+      "props": {
+        "text": "ANANYA R. — INDIRECTO PARK, BENGALURU",
+        "font": "mono",
+        "size": 21,
+        "tracking": 8,
+        "align": "left",
+        "color": "#ff6a1a",
+        "reveal": "wordsLeft",
+        "stagger": 0.025
+      }
+    },
+    {
+      "id": "ts_gauge",
+      "type": "gauge",
+      "name": "rating dial",
+      "in": 23.1,
+      "dur": 2.1,
+      "t": {
+        "x": 176,
+        "y": 1490,
+        "w": 150,
+        "h": 150
+      },
+      "anim": {
+        "enter": "scale",
+        "exit": "fade",
+        "dur": 0.45,
+        "ease": "backOut",
+        "exitDur": 0.2
+      },
+      "props": {
+        "strokeW": 8,
+        "color": "#ff6a1a",
+        "from": 130,
+        "sweep": 280,
+        "dur": 1.15,
+        "ease": "expoOut",
+        "delay": 0.1,
+        "trackColor": "#ffffff",
+        "trackAlpha": 0.12,
+        "center": true,
+        "centerSize": 34,
+        "centerFont": "display",
+        "centerColor": "#f4f1ea",
+        "centerTo": 4.9,
+        "centerDecimals": 1,
+        "centerSuffix": "/5",
+        "dot": true,
+        "dotColor": "#ffe0bd"
+      }
+    },
+    {
+      "id": "ts_note",
+      "type": "text",
+      "name": "dial label",
+      "in": 23.55,
+      "dur": 1.65,
+      "t": {
+        "x": 660,
+        "y": 1490,
+        "w": 700,
+        "h": 70
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.3,
+        "exitDur": 0.2
+      },
+      "props": {
+        "text": "AVERAGE CLIENT SCORE\nACROSS 214 HANDOVERS",
+        "font": "mono",
+        "size": 20,
+        "tracking": 8,
+        "leading": 1.5,
+        "align": "left",
+        "color": "#9aa0a8",
+        "reveal": "lines",
+        "stagger": 0.06
+      }
+    },
+    {
+      "id": "lo_bg",
+      "type": "bg",
+      "name": "finale wash",
+      "in": 24.9,
+      "dur": 2.85,
+      "t": {},
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.34,
+        "exitDur": 0.3
+      },
+      "props": {
+        "mode": "radial",
+        "cx": 0.5,
+        "cy": 0.45,
+        "r": 1,
+        "colors": [
+          "#1a1e22",
+          "#08090a"
+        ],
+        "drift": 8,
+        "pools": [
+          {
+            "x": 0.5,
+            "y": 0.46,
+            "r": 0.44,
+            "c": "#c45a0f",
+            "a": 0.2,
+            "spin": 0.04
+          }
+        ]
+      }
+    },
+    {
+      "id": "lo_lock",
+      "type": "path",
+      "name": "full lockup",
+      "in": 25,
+      "dur": 2.6,
+      "t": {
+        "x": 540,
+        "y": 892,
+        "w": 700,
+        "h": 212
+      },
+      "anim": {
+        "enter": "scale",
+        "exit": "fade",
+        "dur": 0.55,
+        "ease": "backOut",
+        "exitDur": 0.26
+      },
+      "props": {
+        "logo": "timberlane",
+        "group": "all",
+        "fit": "inside",
+        "clipReveal": true,
+        "clipDur": 0.85,
+        "stagger": 0.03,
+        "tint": "auto",
+        "keepBrand": true
+      }
+    },
+    {
+      "id": "lo_rule",
+      "type": "shape",
+      "name": "rule",
+      "in": 25.42,
+      "dur": 2.1,
+      "t": {
+        "x": 540,
+        "y": 1030,
+        "w": 700,
+        "h": 2
+      },
+      "anim": {
+        "enter": "none",
+        "exit": "fade",
+        "dur": 0,
+        "exitDur": 0.2
+      },
+      "props": {
+        "shape": "line",
+        "strokeW": 2,
+        "fill": "#ff6a1a",
+        "fillAlpha": 0.7,
+        "grow": true,
+        "growDur": 0.8,
+        "growEase": "expoOut"
+      }
+    },
+    {
+      "id": "lo_tag",
+      "type": "text",
+      "name": "tagline",
+      "in": 25.6,
+      "dur": 1.95,
+      "t": {
+        "x": 540,
+        "y": 1096,
+        "w": 820,
+        "h": 46
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.3,
+        "exitDur": 0.2
+      },
+      "props": {
+        "text": "PRECISION IN EVERY DETAIL",
+        "font": "grotesk",
+        "size": 28,
+        "weight": 700,
+        "tracking": 12,
+        "align": "center",
+        "color": "#f4f1ea",
+        "reveal": "wordsUp",
+        "revealDur": 0.4
+      }
+    },
+    {
+      "id": "lo_sweep",
+      "type": "sweep",
+      "name": "specular",
+      "in": 25.35,
+      "dur": 2.2,
+      "t": {},
+      "anim": {
+        "enter": "none",
+        "exit": "none"
+      },
+      "props": {
+        "color": "#ffe7cc",
+        "alpha": 0.2,
+        "width": 0.22,
+        "angle": 22,
+        "once": true,
+        "delay": 0.25,
+        "dur": 1.5,
+        "blend": "screen",
+        "ease": "quintOut"
+      }
+    },
+    {
+      "id": "cut_5",
+      "type": "shape",
+      "name": "flash",
+      "in": 27.5,
+      "dur": 0.16,
+      "t": {
+        "x": 540,
+        "y": 960,
+        "w": 1160,
+        "h": 2000
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "fade",
+        "dur": 0.03,
+        "exitDur": 0.13
+      },
+      "props": {
+        "shape": "rect",
+        "fill": "#ffffff",
+        "fillAlpha": 0.3
+      },
+      "blend": "screen"
+    },
+    {
+      "id": "cta_bg",
+      "type": "bg",
+      "name": "orange card",
+      "in": 27.5,
+      "dur": 2.6,
+      "t": {},
+      "anim": {
+        "enter": "maskUp",
+        "exit": "none",
+        "dur": 0.6,
+        "ease": "expoOut"
+      },
+      "props": {
+        "mode": "linear",
+        "angle": 158,
+        "colors": [
+          "#c45a0f",
+          "#e2762c",
+          "#a44a11"
+        ],
+        "drift": 16
+      }
+    },
+    {
+      "id": "cta_grain",
+      "type": "grain",
+      "name": "card grain",
+      "in": 27.55,
+      "dur": 2.55,
+      "t": {},
+      "anim": {
+        "enter": "none",
+        "exit": "none"
+      },
+      "props": {
+        "alpha": 0.05,
+        "contrast": 0.5,
+        "blend": "overlay"
+      }
+    },
+    {
+      "id": "cta_head",
+      "type": "text",
+      "name": "CTA",
+      "in": 27.9,
+      "dur": 2.2,
+      "t": {
+        "x": 540,
+        "y": 700,
+        "w": 880,
+        "h": 627
+      },
+      "anim": {
+        "enter": "none",
+        "exit": "none",
+        "dur": 0
+      },
+      "props": {
+        "text": "LET'S\n**BUILD.**",
+        "font": "display",
+        "size": 196,
+        "tracking": -3,
+        "leading": 0.86,
+        "align": "left",
+        "color": "#16181c",
+        "accent": "#0f1012",
+        "reveal": "wordsUp",
+        "revealDur": 0.55,
+        "revealDist": 220,
+        "stagger": 0.1,
+        "revealEase": "expoOut"
+      }
+    },
+    {
+      "id": "cta_mark",
+      "type": "path",
+      "name": "emblem",
+      "in": 28.15,
+      "dur": 1.95,
+      "t": {
+        "x": 196,
+        "y": 1122,
+        "w": 104,
+        "h": 104
+      },
+      "anim": {
+        "enter": "none",
+        "exit": "none"
+      },
+      "props": {
+        "logo": "timberlane",
+        "group": "mark",
+        "fit": "inside",
+        "tint": "#16181c",
+        "keepBrand": false,
+        "clipReveal": true,
+        "clipDur": 0.7
+      }
+    },
+    {
+      "id": "cta_url",
+      "type": "text",
+      "name": "url",
+      "in": 28.3,
+      "dur": 1.8,
+      "t": {
+        "x": 540,
+        "y": 1268,
+        "w": 880,
+        "h": 90
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "none",
+        "dur": 0.25
+      },
+      "props": {
+        "text": "timberlane.co.in",
+        "font": "display",
+        "size": 84,
+        "tracking": 0,
+        "align": "left",
+        "color": "#16181c",
+        "reveal": "pop",
+        "revealDur": 0.45
+      }
+    },
+    {
+      "id": "cta_phone",
+      "type": "text",
+      "name": "phone",
+      "in": 28.5,
+      "dur": 1.6,
+      "t": {
+        "x": 540,
+        "y": 1356,
+        "w": 880,
+        "h": 40
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "none",
+        "dur": 0.25
+      },
+      "props": {
+        "text": "+91 88846 51111 · MON–SAT 10–7",
+        "font": "mono",
+        "size": 24,
+        "tracking": 6,
+        "align": "left",
+        "color": "#3a1c07",
+        "reveal": "wordsLeft"
+      }
+    },
+    {
+      "id": "cta_btn",
+      "type": "shape",
+      "name": "button",
+      "in": 28.72,
+      "dur": 1.38,
+      "t": {
+        "x": 350,
+        "y": 1484,
+        "w": 500,
+        "h": 82
+      },
+      "anim": {
+        "enter": "scale",
+        "exit": "none",
+        "dur": 0.5,
+        "ease": "backOut",
+        "scaleFrom": 0.7
+      },
+      "props": {
+        "shape": "pill",
+        "fill": "#16181c",
+        "radius": 41
+      }
+    },
+    {
+      "id": "cta_btnTxt",
+      "type": "text",
+      "name": "button label",
+      "in": 28.82,
+      "dur": 1.28,
+      "t": {
+        "x": 350,
+        "y": 1484,
+        "w": 500,
+        "h": 40
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "none",
+        "dur": 0.3
+      },
+      "props": {
+        "text": "BOOK A DESIGN CALL  →",
+        "font": "mono",
+        "size": 24,
+        "weight": 600,
+        "tracking": 10,
+        "align": "center",
+        "color": "#f6f3ee"
+      }
+    },
+    {
+      "id": "cta_bars",
+      "type": "bars",
+      "name": "outro spectrum",
+      "in": 29,
+      "dur": 1.1,
+      "t": {
+        "x": 540,
+        "y": 1660,
+        "w": 620,
+        "h": 52
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "none",
+        "dur": 0.25
+      },
+      "props": {
+        "count": 26,
+        "gap": 8,
+        "min": 4,
+        "radius": 2,
+        "color": "#16181c",
+        "amp": 0.72,
+        "beat": true,
+        "beatAmt": 0.4,
+        "origin": "bottom"
+      }
+    },
+    {
+      "id": "cta_note",
+      "type": "text",
+      "name": "fine print",
+      "in": 29.25,
+      "dur": 0.85,
+      "t": {
+        "x": 540,
+        "y": 1748,
+        "w": 940,
+        "h": 34
+      },
+      "anim": {
+        "enter": "fade",
+        "exit": "none",
+        "dur": 0.3
+      },
+      "props": {
+        "text": "YELAHANKA NEW TOWN · BENGALURU 560064",
+        "font": "mono",
+        "size": 18,
+        "tracking": 6,
+        "align": "center",
+        "color": "rgba(22,24,28,.62)"
+      }
+    }
+  ]
+}
