@@ -89,6 +89,7 @@ tool in this folder runs on node alone:
 | `score-wav.mjs` | plays `music.js`'s own event list into a 48 kHz WAV with the eleven voices re-implemented as DSP — the same chart, printed. `--table` shows the level per 2 s so a flat mix is visible in the text output |
 | `logo.mjs` | `src/layers/logo-src.svg` → the path data in `src/layers/logo.js` (grouped by part, classified so the lockup can be revealed piece by piece) |
 | `sample-json.mjs` | regenerates `samples/*.json` and `docs/layer-types.md` from the engine, then lints both samples against the schema |
+| `export-standalone.mjs` | writes the "⬇ HTML" document from node (`--scene <file>` for any scene) — fonts inlined, plates left as URLs |
 | `editor-smoke.mjs` | mounts the layer editor in jsdom with real 2D contexts and drives it: inspectors for all 20 types, add/drag/undo/scrub/play, docs, import |
 | `standalone-smoke.mjs` | builds the actual "⬇ HTML" document and runs it: boots, plays, <kbd>E</kbd> opens the editor, Esc returns |
 
