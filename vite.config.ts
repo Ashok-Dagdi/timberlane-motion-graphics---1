@@ -16,4 +16,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"),
     },
   },
+  // the studio is meant to be opened remotely as well as locally: bind every
+  // interface and let the preview proxy's host through the dev-server guard
+  server: { host: true, allowedHosts: [".e2b.app"] },
 });
