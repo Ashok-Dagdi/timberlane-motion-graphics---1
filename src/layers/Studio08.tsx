@@ -69,7 +69,7 @@ export function Workspace08() {
   const apiRef = useRef<EditorApi | null>(null);
   const [ready, setReady] = useState(false);
   const [panel, setPanel] = useState<"" | "html">("");
-  const [preview, setPreview] = useState<{ uri: string; kb: number; plates: number } | null>(null);
+  const [preview, setPreview] = useState<{ html: string; uri: string; kb: number; plates: number } | null>(null);
   const [busy, setBusy] = useState(false);
   const iframeRef = useRef<HTMLIFrameElement | null>(null);
 
@@ -86,7 +86,9 @@ export function Workspace08() {
         setBusy(true);
         try {
           const r = await buildStandaloneHTML(s, { plates: true });
-          setPreview({ uri: URL.createObjectURL(r.blob), kb: Math.round(r.bytes / 1024), plates: r.platesInlined });
+          /* uri = the real file for the download link; the iframe gets the markup
+         inline, because a sandboxed frame is not allowed to load a blob: URL */
+      setPreview({ html: r.html, uri: URL.createObjectURL(r.blob), kb: Math.round(r.bytes / 1024), plates: r.platesInlined });
           setPanel("html");
           return r;
         } finally {
@@ -127,7 +129,9 @@ export function Workspace08() {
     try {
       const r = await buildStandaloneHTML(api.scene, { plates: true });
       if (preview) URL.revokeObjectURL(preview.uri);
-      setPreview({ uri: URL.createObjectURL(r.blob), kb: Math.round(r.bytes / 1024), plates: r.platesInlined });
+      /* uri = the real file for the download link; the iframe gets the markup
+         inline, because a sandboxed frame is not allowed to load a blob: URL */
+      setPreview({ html: r.html, uri: URL.createObjectURL(r.blob), kb: Math.round(r.bytes / 1024), plates: r.platesInlined });
       setPanel("html");
     } finally {
       setBusy(false);
@@ -196,7 +200,7 @@ export function Workspace08() {
           <iframe
             ref={iframeRef}
             title="exported file preview"
-            src={preview?.uri}
+            srcDoc={preview?.html}
             className="h-[62vh] w-full bg-[#07080a]"
             sandbox="allow-scripts allow-downloads allow-pointer-lock"
           />
