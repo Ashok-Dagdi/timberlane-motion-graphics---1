@@ -17,6 +17,7 @@ import { Title04, Workspace04 } from "./video4/Workspace4";
 import { Title05, Workspace05 } from "./video5/Workspace5";
 import { Title06, Workspace06 } from "./video6/Workspace6";
 import { Title07, Workspace07 } from "./video7/Workspace7";
+import { Title08, Workspace08 } from "./layers/Studio08";
 import { fmt } from "./video/anim";
 
 const TICKER =
@@ -33,9 +34,11 @@ const TICKER6 =
   "24.0 SEC · 9:16 VERTICAL · 80 BPM · RAMESH · 3BHK · KEYS TO HOME · A SHORT STORY · ";
 const TICKER7 =
   "20.0 SEC · 9:16 VERTICAL · 96 BPM · MATERIAL TRUTH · OAK · STONE · BRASS · ±1 MM · ONE TEAM · ";
+const TICKER8 =
+  "30.0 SEC · 9:16 VERTICAL · 120 BPM · 50 LAYERS · CANVAS ENGINE · DRAG ANY TEXT · EXPORT A STANDALONE HTML · WARM CONCRETE · ";
 
 export default function App() {
-  const [piece, setPiece] = useState<"01" | "02" | "03" | "04" | "05" | "06" | "07">("01");
+  const [piece, setPiece] = useState<"01" | "02" | "03" | "04" | "05" | "06" | "07" | "08">("01");
   const pb1 = usePlayback(piece === "01");
   const pb2 = useCinPlayback(piece === "02");
   const pb3 = usePopPlayback(piece === "03");
@@ -93,6 +96,7 @@ export default function App() {
               { id: "05" as const, k: "05 · DOSSIER", d: "20s · 9:16 · CASE" },
               { id: "06" as const, k: "06 · RAMESH", d: "24s · 9:16 · STORY" },
               { id: "07" as const, k: "07 · MATERIAL", d: "20s · 9:16 · AD" },
+              { id: "08" as const, k: "08 · LAYERS", d: "30s · 9:16 · EDITABLE" },
             ].map((p) => (
               <button
                 key={p.id}
@@ -126,7 +130,7 @@ export default function App() {
         </header>
 
         {/* ------------------------------- title block */}
-        {piece === "01" ? <Title01 /> : piece === "02" ? <Title02 /> : piece === "03" ? <Title03 /> : piece === "04" ? <Title04 /> : piece === "05" ? <Title05 /> : piece === "06" ? <Title06 /> : <Title07 />}
+        {piece === "01" ? <Title01 /> : piece === "02" ? <Title02 /> : piece === "03" ? <Title03 /> : piece === "04" ? <Title04 /> : piece === "05" ? <Title05 /> : piece === "06" ? <Title06 /> : piece === "07" ? <Title07 /> : <Title08 />}
 
         {/* ------------------------------- workspace */}
         {piece === "01" ? (
@@ -141,8 +145,10 @@ export default function App() {
           <Workspace05 />
         ) : piece === "06" ? (
           <Workspace06 />
-        ) : (
+        ) : piece === "07" ? (
           <Workspace07 />
+        ) : (
+          <Workspace08 />
         )}
 
         {/* ------------------------------- ticker */}
@@ -150,8 +156,8 @@ export default function App() {
           <div
             className="ui-marquee flex whitespace-nowrap font-display text-[20px] tracking-[0.12em] text-steel"
           >
-            <span>{(piece === "01" ? TICKER : piece === "02" ? TICKER2 : piece === "03" ? TICKER3 : piece === "04" ? TICKER4 : piece === "05" ? TICKER5 : piece === "06" ? TICKER6 : TICKER7).repeat(3)}</span>
-            <span>{(piece === "01" ? TICKER : piece === "02" ? TICKER2 : piece === "03" ? TICKER3 : piece === "04" ? TICKER4 : piece === "05" ? TICKER5 : piece === "06" ? TICKER6 : TICKER7).repeat(3)}</span>
+            <span>{(piece === "01" ? TICKER : piece === "02" ? TICKER2 : piece === "03" ? TICKER3 : piece === "04" ? TICKER4 : piece === "05" ? TICKER5 : piece === "06" ? TICKER6 : piece === "07" ? TICKER7 : TICKER8).repeat(3)}</span>
+            <span>{(piece === "01" ? TICKER : piece === "02" ? TICKER2 : piece === "03" ? TICKER3 : piece === "04" ? TICKER4 : piece === "05" ? TICKER5 : piece === "06" ? TICKER6 : piece === "07" ? TICKER7 : TICKER8).repeat(3)}</span>
           </div>
         </div>
 

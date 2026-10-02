@@ -83,7 +83,7 @@ const FFMPEG =
   ]);
 
 /* ------------------------------------------------------------------ */
-/*  the seven masters                                                  */
+/*  the eight masters                                                  */
 /* ------------------------------------------------------------------ */
 const PIECES = [
   { id: "01", slug: "vertical-ember", w: 1080, h: 1920, fps: 30, duration: 20, title: "PRECISION IN EVERY FRAME" },
@@ -93,6 +93,7 @@ const PIECES = [
   { id: "05", slug: "dossier-case", w: 1080, h: 1920, fps: 30, duration: 20, title: "CASE DOSSIER" },
   { id: "06", slug: "ramesh-story", w: 1080, h: 1920, fps: 30, duration: 24, title: "RAMESH · KEYS TO HOME" },
   { id: "07", slug: "material-ad", w: 1080, h: 1920, fps: 30, duration: 20, title: "MATERIAL TRUTH" },
+  { id: "08", slug: "timberlane-layers", w: 1080, h: 1920, fps: 30, duration: 30, title: "TIMBERLANE · LAYERS STUDIO" },
 ];
 
 /* ------------------------------------------------------------------ */
